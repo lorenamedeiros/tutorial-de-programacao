@@ -1,0 +1,84 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tutorial de Programação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Tutorial de Programação</h1>
+
+    <!-- VARIÁVEIS -->
+    <h3>Variáveis</h3>
+    <p>
+        Em um programa, existe a necessidade de se guardar valores na memória, e isso é feito através de variáveis, que
+        podem ser definidas simplificadamente como nomes que se referem a lugares na memória onde são guardados
+        valores. Ao
+        declararmos uma variável, não apenas estamos reservando um espaço de memória, como também estamos associando um
+        nome a ele, o identificador. Ao invés de utilizarmos o endereço da variável na memória, que seria geralmente
+        notado
+        na forma hexadecimal, como por exemplo 0x0012FED4, referimo-nos ao endereço apenas pelo seu nome. Apenas para
+        deixar claro, a própria notação em hexadecimal já é uma simplificação, pois computadores na verdade trabalham
+        com
+        binário.
+    </p>
+
+    <p>
+        Em C, para utilizar uma variável, ela deve ser primeiramente declarada, ou seja, devemos requisitar o espaço
+        necessário para essa variável. Após reservar um espaço na memória, o computador irá associar a ele o nome da
+        variável. Se você não declarar uma variável e tentar utilizá-la, o compilador irá avisá-lo disso e não
+        continuará a
+        compilação.
+    </p>
+
+    <p>Exemplo:</p>
+
+    <pre>int numero;</pre>
+
+    <!-- ATRIBUIÇÃO -->
+    <h3>Atribuição</h3>
+    <p>Se quisermos associar um valor a uma variável, usamos o operador = (igual):</p>
+
+    <pre>int numero = 25;</pre>
+
+    <!-- CONDIÇÃO -->
+    <h3>Condição</h3>
+    <p>Uma estrutura de decisão examina uma ou mais condições e decide quais instruções serão executadas dependendo se
+        a condição foi ou não foi.</p>
+    <p>O comando if é uma estrutura de decisão muito utilizada.</p>
+    Exemplo:
+    <pre>
+int pagamento = 200;
+
+if (pagamento == 200)
+{
+    printf("Pagamento correto! Obrigado pela compra!");
+}
+else
+{
+    printf("Pagamento com valor incorreto! Favor corrigir a diferença!")
+}
+    </pre>
+
+    <!-- REPETIÇÃO -->
+    <h3>Repetição</h3>
+    <p>Denominamos “laço” (loop em inglês) a uma estrutura de repetição.</p>
+    <p>
+        As estruturas de repetição, executam a repetição de um conjunto de instruções enquanto uma determinada condição
+        é verdadeira.
+    </p>
+    <p>Em linguagem C, existem três estruturas de repetição, são elas: for, while e do…while.</p>
+    <p>Cada uma destas estruturas tem a sua particularidade em termos de funcionamento.</p>
+    Exemplo:
+    <pre>
+for(int i=0; i < 10; i++)
+{
+    printf("O índice atual é %i", i);
+}
+    </pre>
+</body>
+
+</html>
